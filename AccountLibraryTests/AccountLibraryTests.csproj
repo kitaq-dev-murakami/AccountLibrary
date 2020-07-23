@@ -57,6 +57,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AccountIdTests.cs" />
+    <Compile Include="AccountPasswordTests.cs" />
     <Compile Include="AccountTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
