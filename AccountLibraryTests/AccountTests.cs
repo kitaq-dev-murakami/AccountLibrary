@@ -30,5 +30,13 @@ namespace AccountLibrary.Tests
             var account = new Account();
             Assert.ThrowsException<ArgumentException>(() => account.Create("", ""));
         }
+
+        //[TestMethod()]
+        //public void IDが10文字以外だったらArgumentException()
+        //{
+        //    var account = new Account();
+        //    Assert.ThrowsException<ArgumentException>(() => account.Create("123456789", "@"));
+        //    Assert.ThrowsException<ArgumentException>(() => account.Create("123456789", "@"));
+        //}
     }
 }
